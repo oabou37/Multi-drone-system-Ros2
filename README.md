@@ -87,15 +87,7 @@ ros2 run popeye ARUCO__node
 ros2 launch control_ground_station cgs_nodes.launch.py
 ```
 
-You should get something like this for Popeye after launching the FSM (not that you can launch the control without the FSM):
-<div style="text-align: center;">
-  <img src="docs/result_popeye.png" alt="Software Architecture" width="600" />
-</div>
 
-To connect to the real drone, have more details about launching and, in general, to better understant how to make such a system launch, please refer to [Useful commands for launch and testing](./docs/commands.md).
-
-## Ending
-A huge thank you to all the participants — this was truly a once-in-a-lifetime opportunity to learn how to build and operate UAVs as a team.
 
 Although I will likely not continue this development, feel free to reach out if you need more information or want to build upon this work.
 
